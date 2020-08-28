@@ -237,7 +237,7 @@ def cut_photo():
 
 
 def git_operation():
-    os.system('git rm -r --cached')
+    os.system('git rm -r --cached .')
     os.system("git config core.autocrlf false")
     os.system('git add --all')
     os.system('git commit -m "add photos"')
